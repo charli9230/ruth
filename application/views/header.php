@@ -9,7 +9,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-    <link rel="stylesheet" href="<?php base_url('assets/css/style.css',null);?>" >
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/style.css',null);?>" >
+
+
 </head>
 <body>
 <!--Open Class container for the whole page-->
